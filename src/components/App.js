@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-
-
 export default function App() {
   return (
     <div>
@@ -9,7 +7,6 @@ export default function App() {
     </div>
   );
 }
-
 
 
 function TipCalculator() {
@@ -25,7 +22,6 @@ function TipCalculator() {
     setPercentage2(0)
 
   }
-
 
   return (
     <div>
@@ -63,11 +59,7 @@ function BillInput({ bill, onSetBill }) {
   );
 }
 
-
-
-
 function SelectPercentage({ children, percentage, onSetPercentage }) {
-
 
   return (
     <div>
